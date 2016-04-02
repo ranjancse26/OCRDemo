@@ -14,6 +14,11 @@ each time a image is processed. However this is not performant as creating a new
 is expensive and would be a good candiate for pooling to allow a single engine instance to be
 reused.
 
+## Windows Form Demo
+
+A sample Windows Form application allows the user to browse the image and process the same to text. 
+The processed text gets displayed on a RichTextBox. Yet times based on the image quality, the text produced may slightly vary. There are small variations in the text and is not a full proof solution.
+
 ## License
 
 Copyright 2012-2015 Charles Weld.
